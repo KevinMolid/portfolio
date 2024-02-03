@@ -202,7 +202,7 @@ textarea {
 /* qwe */
 .home-hero {
   color: #fff;
-  background-image: url('../assets/img/black-bg.jpg');
+  background-image: url('../assets/img/Coding.png');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -341,11 +341,30 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background-image: url('../assets/img/black-bg.jpg');
+  background-image: url('../assets/img/Write.png');
   background-size: cover;
   background-position: center; 
 }
- 
+
+.contact .main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 12rem 0; }
+  @media only screen and (max-width: 56.25em) {
+    .sec-pad {
+      padding: 8rem 0; } }
+
+.contact p {
+  color: #eee;
+  font-size: 2rem;
+  margin-bottom: 1em;
+}
+
+.contact i {
+  margin-right: 8px;
+}
 
 .project-cs-hero {
   color: #fff;
@@ -498,9 +517,10 @@ textarea {
     text-transform: uppercase;
     letter-spacing: 1px;
     font-weight: 700;
-    transition: color .3s; }
+    transition: color .3s, transform .3s; }
     .header__link:hover {
-      color: rgba(var(--main-color), 1); }
+      color: rgba(var(--main-color), 1);
+      transform: translateY(-5px); }
     @media only screen and (max-width: 56.25em) {
       .header__link {
         padding: 3rem 1.8rem;
