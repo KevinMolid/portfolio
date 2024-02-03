@@ -202,7 +202,8 @@ textarea {
 /* qwe */
 .home-hero {
   color: #fff;
-  background: linear-gradient(to right, rgba(var(--main-color), 0.8), rgba(var(--main-color), 0.8) ), url(../../assets/svg/common-bg.svg);
+  background-image: url('../assets/img/black-bg.jpg');
+  background-size: cover;
   background-position: center;
   height: 100vh;
   min-height: 80rem;
@@ -340,7 +341,7 @@ textarea {
           font-size: 1.7rem; } }
 
 .contact {
-  background: linear-gradient(to right, rgba(var(--main-color), 0.8), rgba(var(--main-color), 0.8)), url(../../assets/svg/common-bg.svg);
+  background-image: url('../assets/img/black-bg.jpg');
   background-size: cover;
   background-position: center; 
 }
@@ -348,7 +349,7 @@ textarea {
 
 .project-cs-hero {
   color: #fff;
-  background: linear-gradient(to right,  rgba(var(--main-color), 0.8),  rgba(var(--main-color), 0.8)), url(../../assets/svg/common-bg.svg);
+  background-image: url('../assets/img/black-bg.jpg');
   background-size: cover;
   background-position: center;
   position: relative; }
@@ -556,7 +557,7 @@ textarea {
     border-bottom: 0; }
 
 .main-footer {
-  background: #091520;
+  background: #000000;
   color: #fff; }
   .main-footer__upper {
     display: flex;
